@@ -1,0 +1,44 @@
+[
+  { 
+    "id": "q1",
+    "question": "What is retrieval augmented generation according to the book?",
+    "expected_topics": ["retrieval", "context", "generation"],
+    "should_use_tool": true,
+    "expected_tool": "search_book"
+  },
+  {
+    "id": "q2", 
+    "question": "What topics does this book cover?",
+    "expected_topics": ["fine-tuning", "RAG", "evaluation"],
+    "should_use_tool": true,
+    "expected_tool": "list_topics"
+  },
+  { 
+    "id": "q3",
+    "question": "Hello, can you introduce yourself?",
+    "expected_topics": [],
+    "should_use_tool": false,
+    "expected_tool": null
+  },
+  { 
+    "id": "q4",
+    "question": "What is the Riemann Hypothesis?",
+    "expected_topics": [],
+    "should_use_tool": false,    
+    "expected_tool": null
+  },
+  {
+    "id": "q5",
+    "question": "What is retrieval augmented generation and compared to fine-tuning?",
+    "expected_topics": ["retrieval", "context", "generation"],
+    "should_use_tool": true,
+    "expected_tool": "search_book"
+  },
+  { 
+    "id": "q6",
+    "question": "What topics does this book cover and what are the key takeaways?",
+    "expected_topics": ["fine-tuning", "RAG", "evaluation"],
+    "should_use_tool": true,
+    "expected_tool": "list_topics"
+  }
+]

@@ -1,0 +1,6 @@
+id,question,raw_tools,lg_tools,raw_answer_len,lg_answer_len,same_tools
+q1,What is retrieval augmented generation according to the book?,['search_book'],['search_book'],1297,1257,True
+q2,What topics does this book cover?,['list_topics'],['list_topics'],1018,1023,True
+q3,"Hello, can you introduce yourself?",[],[],827,866,True
+q4,What is the Riemann Hypothesis?,[],[],649,601,True
+q5,What is retrieval augmented generation and compared to fine-tuning?,"['search_book', 'search_book']","['search_book', 'search_book']",1603,1568,True

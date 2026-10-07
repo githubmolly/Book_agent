@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    image: book-agent:v0.2
+    container_name: book-agent-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: unless-stopped

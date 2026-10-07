@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "python.exe": {
+      "type": "stdio",
+      "command": "E:\\P1_JOB\\AI projects\\book_agent\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "src.mcp_server"
+      ],
+      "cwd": "E:\\P1_JOB\\AI projects\\book_agent"
+    }
+  }
+}
